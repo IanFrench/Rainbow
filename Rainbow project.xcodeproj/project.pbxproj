@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C55714A243E3C86008CAE05 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C557149243E3C86008CAE05 /* Default-568h@2x.png */; };
+		3C55716C243E429E008CAE05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C55716B243E429E008CAE05 /* Assets.xcassets */; };
 		3CA1E12A243D624A00030C41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA1E129243D624A00030C41 /* AppDelegate.swift */; };
 		3CA1E12C243D624A00030C41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA1E12B243D624A00030C41 /* SceneDelegate.swift */; };
 		3CA1E131243D624A00030C41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CA1E12F243D624A00030C41 /* Main.storyboard */; };
@@ -18,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C557149243E3C86008CAE05 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3C55716B243E429E008CAE05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../Library/Autosave Information/R2/R2/Assets.xcassets"; sourceTree = "<group>"; };
+		3C55716D243E42EA008CAE05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CA1E126243D624A00030C41 /* Rainbow project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rainbow project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CA1E129243D624A00030C41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CA1E12B243D624A00030C41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,6 +49,7 @@
 		3CA1E11D243D624A00030C41 = {
 			isa = PBXGroup;
 			children = (
+				3C557149243E3C86008CAE05 /* Default-568h@2x.png */,
 				3CA1E128243D624A00030C41 /* Rainbow project */,
 				3CA1E127243D624A00030C41 /* Products */,
 				3CA1E164243D6D3D00030C41 /* Resources */,
@@ -61,6 +67,7 @@
 		3CA1E128243D624A00030C41 /* Rainbow project */ = {
 			isa = PBXGroup;
 			children = (
+				3C55716D243E42EA008CAE05 /* Assets.xcassets */,
 				3CA1E163243D6D0400030C41 /* View Controllers */,
 				3CA1E162243D6CF700030C41 /* Model */,
 				3CA1E161243D6CE600030C41 /* Views */,
@@ -97,6 +104,7 @@
 		3CA1E164243D6D3D00030C41 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				3C55716B243E429E008CAE05 /* Assets.xcassets */,
 				3CA1E129243D624A00030C41 /* AppDelegate.swift */,
 				3CA1E12B243D624A00030C41 /* SceneDelegate.swift */,
 				3CA1E132243D624B00030C41 /* Assets.xcassets */,
@@ -164,8 +172,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CA1E136243D624B00030C41 /* LaunchScreen.storyboard in Resources */,
+				3C55714A243E3C86008CAE05 /* Default-568h@2x.png in Resources */,
 				3CA1E133243D624B00030C41 /* Assets.xcassets in Resources */,
 				3CA1E131243D624A00030C41 /* Main.storyboard in Resources */,
+				3C55716C243E429E008CAE05 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
